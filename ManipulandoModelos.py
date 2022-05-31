@@ -14,5 +14,5 @@
 # >>> lista = Empresa.objects.filter(id=2)
 # >>> lista = Empresa.objects.filter(nome__contains='oo')
 # >>> lista = Empresa.objects.filter(nome__icontains='Oo')  # o filter traz uma lista
-# >>>
-# >>>
+# >>> objeto = Empresa.objects.get(id=4)
+# >>> 
