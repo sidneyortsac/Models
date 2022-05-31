@@ -15,4 +15,8 @@
 # >>> lista = Empresa.objects.filter(nome__contains='oo')
 # >>> lista = Empresa.objects.filter(nome__icontains='Oo')  # o filter traz uma lista
 # >>> objeto = Empresa.objects.get(id=4)
-# >>> 
+# >>>
+# >>>
+# >>>
+# Atenção!!! não se aplica o método save() quando se tratar de type QuerySet 
+
