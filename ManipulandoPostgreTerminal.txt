@@ -1,0 +1,16 @@
+Podemos determinar o banco conectado atualmente com o comando a seguir:
+    SELECT current_database();
+
+Podemos conectar a um outro banco de dados usando a sintaxe a seguir:
+    \c nome_do_banco //conecta com usuário atual
+    //ou
+    \c nome_do_banco nome_outro_usuário //conecta com outro usuário ao banco
+
+Também podemos ver informações a respeito da conexão atual, como o nome do banco de dados em uso e o usuário conectado, além da porta de conexão empregada, com o comando conninfo:
+    \conninfo
+
+Para listar as tabelas existentes no banco conectado, usamos os comandos do psql \d ou \dt:
+    \dt
+    // ou
+    \d
+
